@@ -1,0 +1,10 @@
+15:00:29 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+
+15:00:29 Build Finished. 0 errors, 0 warnings. (took 174ms)
+

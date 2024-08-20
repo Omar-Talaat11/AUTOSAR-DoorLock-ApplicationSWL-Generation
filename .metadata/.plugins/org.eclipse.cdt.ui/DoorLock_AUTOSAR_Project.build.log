@@ -1,0 +1,24 @@
+15:02:45 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c: In function 'Rte_Call_DoorLock_indication_SWC_RP_CS_Led_Switch_Led_Switch':
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:36:2: warning: implicit declaration of function 'Led_Switch_runnable' [-Wimplicit-function-declaration]
+  Led_Switch_runnable(LedState);
+  ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Graduation Project\Course\KEROLES\STM32 Drivers\AUTOSAR_PROJECT\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-objdump -h -S  DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+arm-none-eabi-objcopy  -O binary  DoorLock_AUTOSAR_Project.elf  "DoorLock_AUTOSAR_Project.bin"
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3000	      8	   1728	   4736	   1280	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.bin
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 
+
+15:02:45 Build Finished. 0 errors, 1 warnings. (took 485ms)
+

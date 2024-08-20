@@ -1,0 +1,1349 @@
+15:31:17 **** Clean-only build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 clean 
+rm -rf *
+ 
+15:31:17 **** Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.d" -MT"Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_USART_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_USART_driver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_USART_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_USART_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc  -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc  -gdwarf-2 "../HAL/I2C_Slave_EEPROM.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"HAL/I2C_Slave_EEPROM.d" -MT"HAL/I2C_Slave_EEPROM.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL/I2C_Slave_EEPROM.o"
+arm-none-eabi-gcc  -gdwarf-2 "../HAL/keypad.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"HAL/keypad.d" -MT"HAL/keypad.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL/keypad.o"
+arm-none-eabi-gcc  -gdwarf-2 "../HAL/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"HAL/lcd.d" -MT"HAL/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL/lcd.o"
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:42: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+ I2C_InitTypeDef Global_I2C_Config[2]  = {NULL,NULL} ;
+                                          ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:42: note: (near initialization for 'Global_I2C_Config[0].I2C_ClockSpeed')
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:47: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+ I2C_InitTypeDef Global_I2C_Config[2]  = {NULL,NULL} ;
+                                               ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:47: note: (near initialization for 'Global_I2C_Config[0].StretchMode')
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:41: warning: missing braces around initializer [-Wmissing-braces]
+ I2C_InitTypeDef Global_I2C_Config[2]  = {NULL,NULL} ;
+                                         ^
+../Stm32_F103C6_Drivers/stm32f103x8_USART_driver.c: In function 'MCAL_UART_SendData':
+../Stm32_F103C6_Drivers/stm32f103x8_USART_driver.c:180:12: warning: unused variable 'pdata' [-Wunused-variable]
+  uint16_t *pdata;
+            ^~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c: In function 'MCAL_SPI_GPIO_Set_Pins':
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c: In function 'I2C_GetFlagStatus':
+../Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.c: In function 'MCAL_RCC_GetSYS_CLCKFreq':
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:274:4: warning: case label value is less than minimum value for type
+    case SPI_NSS_Hard_Master_SS_output_disable:
+    ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:400:20: warning: unused variable 'dummyRead' [-Wunused-variable]
+  volatile uint32_t dummyRead ;
+                    ^~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.c:87:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:376:4: warning: case label value is less than minimum value for type
+    case SPI_NSS_Hard_Master_SS_output_disable:
+    ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c: In function 'I2C1_EV_IRQHandler':
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:544:4: warning: implicit declaration of function 'Slave_States' [-Wimplicit-function-declaration]
+    Slave_States(I2Cx,I2C_EV_STOP);
+    ^~~~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:527:20: warning: variable 'dummy_read' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t dummy_read = 0 ;
+                    ^~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c: At top level:
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:276:27: warning: statement will never be executed [-Wswitch-unreachable]
+     PinCfg.GPIO_PinNumber = GPIO_PIN_4;
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:612:6: warning: conflicting types for 'Slave_States'
+ void Slave_States (I2C_TypeDef* I2Cx  ,Slave_State state)
+      ^~~~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:544:4: note: previous implicit declaration of 'Slave_States' was here
+    Slave_States(I2Cx,I2C_EV_STOP);
+    ^~~~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:378:27: warning: statement will never be executed [-Wswitch-unreachable]
+     PinCfg.GPIO_PinNumber = GPIO_PIN_12;
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Graduation Project\Course\KEROLES\STM32 Drivers\AUTOSAR_PROJECT\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+arm-none-eabi-objdump -h -S  DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+arm-none-eabi-objcopy  -O binary  DoorLock_AUTOSAR_Project.elf  "DoorLock_AUTOSAR_Project.bin"
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.bin
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 
+15:31:19 **** Clean-only build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 clean 
+rm -rf *
+ 
+15:31:19 **** Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.d" -MT"Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_USART_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_USART_driver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_USART_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_USART_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc  -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc  -gdwarf-2 "../HAL/I2C_Slave_EEPROM.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"HAL/I2C_Slave_EEPROM.d" -MT"HAL/I2C_Slave_EEPROM.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL/I2C_Slave_EEPROM.o"
+arm-none-eabi-gcc  -gdwarf-2 "../HAL/keypad.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"HAL/keypad.d" -MT"HAL/keypad.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL/keypad.o"
+arm-none-eabi-gcc  -gdwarf-2 "../HAL/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"HAL/lcd.d" -MT"HAL/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL/lcd.o"
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:42: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+ I2C_InitTypeDef Global_I2C_Config[2]  = {NULL,NULL} ;
+                                          ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:42: note: (near initialization for 'Global_I2C_Config[0].I2C_ClockSpeed')
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:47: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+ I2C_InitTypeDef Global_I2C_Config[2]  = {NULL,NULL} ;
+                                               ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:47: note: (near initialization for 'Global_I2C_Config[0].StretchMode')
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:41: warning: missing braces around initializer [-Wmissing-braces]
+ I2C_InitTypeDef Global_I2C_Config[2]  = {NULL,NULL} ;
+                                         ^
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c: In function 'I2C_GetFlagStatus':
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:400:20: warning: unused variable 'dummyRead' [-Wunused-variable]
+  volatile uint32_t dummyRead ;
+                    ^~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c: In function 'I2C1_EV_IRQHandler':
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:544:4: warning: implicit declaration of function 'Slave_States' [-Wimplicit-function-declaration]
+    Slave_States(I2Cx,I2C_EV_STOP);
+    ^~~~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:527:20: warning: variable 'dummy_read' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t dummy_read = 0 ;
+                    ^~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c: At top level:
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:612:6: warning: conflicting types for 'Slave_States'
+ void Slave_States (I2C_TypeDef* I2Cx  ,Slave_State state)
+      ^~~~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:544:4: note: previous implicit declaration of 'Slave_States' was here
+    Slave_States(I2Cx,I2C_EV_STOP);
+    ^~~~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.c: In function 'MCAL_RCC_GetSYS_CLCKFreq':
+../Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.c:87:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c: In function 'MCAL_SPI_GPIO_Set_Pins':
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:274:4: warning: case label value is less than minimum value for type
+    case SPI_NSS_Hard_Master_SS_output_disable:
+    ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:376:4: warning: case label value is less than minimum value for type
+    case SPI_NSS_Hard_Master_SS_output_disable:
+    ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_USART_driver.c: In function 'MCAL_UART_SendData':
+../Stm32_F103C6_Drivers/stm32f103x8_USART_driver.c:180:12: warning: unused variable 'pdata' [-Wunused-variable]
+  uint16_t *pdata;
+            ^~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:276:27: warning: statement will never be executed [-Wswitch-unreachable]
+     PinCfg.GPIO_PinNumber = GPIO_PIN_4;
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:378:27: warning: statement will never be executed [-Wswitch-unreachable]
+     PinCfg.GPIO_PinNumber = GPIO_PIN_12;
+../Src/main.c: In function 'StartOS':
+../Src/main.c:83:4: warning: implicit declaration of function 'ReadDoorSensor_runnable' [-Wimplicit-function-declaration]
+    ReadDoorSensor_runnable();
+    ^~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:88:4: warning: implicit declaration of function 'DoorLock_indication_runnable' [-Wimplicit-function-declaration]
+    DoorLock_indication_runnable();
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc  -gdwarf-2 -o "RemoteSystemsTempFiles.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Graduation Project\Course\KEROLES\STM32 Drivers\AUTOSAR_PROJECT\RemoteSystemsTempFiles\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RemoteSystemsTempFiles.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Src/main.o: In function `StartOS':
+D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Debug/../Src/main.c:83: undefined reference to `ReadDoorSensor_runnable'
+D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Debug/../Src/main.c:88: undefined reference to `DoorLock_indication_runnable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:52: RemoteSystemsTempFiles.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:31:52 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+15:31:52 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/RemoteSystemsTempFiles/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc  -gdwarf-2 -o "RemoteSystemsTempFiles.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Graduation Project\Course\KEROLES\STM32 Drivers\AUTOSAR_PROJECT\RemoteSystemsTempFiles\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RemoteSystemsTempFiles.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RemoteSystemsTempFiles.elf
+ 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+arm-none-eabi-objdump -h -S  RemoteSystemsTempFiles.elf  > "RemoteSystemsTempFiles.list"
+arm-none-eabi-objcopy  -O binary  RemoteSystemsTempFiles.elf  "RemoteSystemsTempFiles.bin"
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+Finished building: RemoteSystemsTempFiles.bin
+Finished building: RemoteSystemsTempFiles.list
+ 
+ 
+15:55:55 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+15:55:56 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+15:56:45 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DIO.d" -MT"AUTOSAR_Implementation/DIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DIO.o"
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Graduation Project\Course\KEROLES\STM32 Drivers\AUTOSAR_PROJECT\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-objdump -h -S  DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+arm-none-eabi-objcopy  -O binary  DoorLock_AUTOSAR_Project.elf  "DoorLock_AUTOSAR_Project.bin"
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.bin
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 
+15:56:46 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+15:57:15 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DIO.d" -MT"AUTOSAR_Implementation/DIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DIO.o"
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Graduation Project\Course\KEROLES\STM32 Drivers\AUTOSAR_PROJECT\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-objdump -h -S  DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+arm-none-eabi-objcopy  -O binary  DoorLock_AUTOSAR_Project.elf  "DoorLock_AUTOSAR_Project.bin"
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.bin
+Finished building: DoorLock_AUTOSAR_Project.list
+ 
+ 
+15:57:15 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+15:57:27 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+15:57:27 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:19:49 **** Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:26: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:21: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:23: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:19:50 **** Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:21:22 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: AUTOSAR_IncludeFiles/Std_Types.h: No such file or directory
+ #include "AUTOSAR_IncludeFiles/Std_Types.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:26: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: AUTOSAR_IncludeFiles/Std_Types.h: No such file or directory
+ #include "AUTOSAR_IncludeFiles/Std_Types.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: AUTOSAR_IncludeFiles/Std_Types.h: No such file or directory
+ #include "AUTOSAR_IncludeFiles/Std_Types.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:21: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:23: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:21:22 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:21:41 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:26: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:21: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:23: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:21:41 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:22:01 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:26: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:23: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:21: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:22:01 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:51:46 **** Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 -mcpu=cortex-m3 -g3 -c -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation/RTE_gen" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation/AUTOSAR_IncludeFiles" -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:28: AUTOSAR_Implementation/DoorSensorAbstractionSWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:26: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:21: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:23: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+../Src/main.c: In function 'StartOS':
+../Src/main.c:83:4: warning: implicit declaration of function 'ReadDoorSensor_runnable' [-Wimplicit-function-declaration]
+    ReadDoorSensor_runnable();
+    ^~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:88:4: warning: implicit declaration of function 'DoorLock_indication_runnable' [-Wimplicit-function-declaration]
+    DoorLock_indication_runnable();
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:51:47 **** Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:53:38 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:26: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [AUTOSAR_Implementation/subdir.mk:28: AUTOSAR_Implementation/DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:21: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:23: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:53:38 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:54:29 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:26: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [AUTOSAR_Implementation/subdir.mk:28: AUTOSAR_Implementation/DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:21: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:23: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:54:29 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:55:12 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 -mcpu=cortex-m3 -g3 -c -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation/RTE_gen" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation/AUTOSAR_IncludeFiles" -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:26: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [AUTOSAR_Implementation/subdir.mk:28: AUTOSAR_Implementation/DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:23: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:21: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:55:13 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:55:46 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:10: fatal error: Rte.h: No such file or directory
+ #include "Rte.h"
+          ^~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:10: fatal error: Rte.h: No such file or directory
+ #include "Rte.h"
+          ^~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:26: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [AUTOSAR_Implementation/subdir.mk:28: AUTOSAR_Implementation/DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:10: fatal error: Rte.h: No such file or directory
+ #include "Rte.h"
+          ^~~~~~~
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:11:10: fatal error: Rte.h: No such file or directory
+ #include "Rte.h"
+          ^~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:21: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:23: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:55:46 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:57:02 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 -mcpu=cortex-m3 -g3 -c -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation/RTE_gen" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation/AUTOSAR_IncludeFiles" -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:10: fatal error: Rte.h: No such file or directory
+ #include "Rte.h"
+          ^~~~~~~
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:10: fatal error: Rte.h: No such file or directory
+ #include "Rte.h"
+          ^~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:28: AUTOSAR_Implementation/DoorSensorAbstractionSWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [AUTOSAR_Implementation/subdir.mk:26: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:10: fatal error: Rte.h: No such file or directory
+ #include "Rte.h"
+          ^~~~~~~
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:10: fatal error: Rte.h: No such file or directory
+ #include "Rte.h"
+          ^~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:23: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:21: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:57:02 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:57:28 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/Rte_DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/DoorLock_indication_SWC.c:8:0:
+../AUTOSAR_Implementation/Rte_DoorLock_indication_SWC.h:10:10: fatal error: ../Rte_DoorLock_indication_SWC_Type.h: No such file or directory
+ #include "../Rte_DoorLock_indication_SWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../AUTOSAR_Implementation/Rte_DoorLock_indication_SWC.c:7:10: fatal error: ../Rte_DoorLock_indication_SWC.h: No such file or directory
+ #include "../Rte_DoorLock_indication_SWC.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:32: AUTOSAR_Implementation/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../AUTOSAR_Implementation/Rte_DoorSensorAbstractionSWC.c:7:10: fatal error: ../Rte_DoorSensorAbstractionSWC.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:36: AUTOSAR_Implementation/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/subdir.mk:38: AUTOSAR_Implementation/Rte_DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c:9:0:
+../AUTOSAR_Implementation/Rte_DoorSensorAbstractionSWC.h:10:10: fatal error: ../Rte_DoorSensorAbstractionSWC_Type.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/subdir.mk:34: AUTOSAR_Implementation/DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:57:28 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:59:03 **** Clean-only build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 clean 
+rm -rf *
+ 
+14:59:04 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.d" -MT"Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/GPIO/stm32f103x8_gpio_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_EXTI_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Stm32_F103C6_Drivers/stm32f103x8_USART_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Stm32_F103C6_Drivers/stm32f103x8_USART_driver.d" -MT"Stm32_F103C6_Drivers/stm32f103x8_USART_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Stm32_F103C6_Drivers/stm32f103x8_USART_driver.o"
+arm-none-eabi-gcc  -gdwarf-2 -mcpu=cortex-m3 -g3 -c -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation/RTE_gen" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/AUTOSAR_Implementation/AUTOSAR_IncludeFiles" -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc  -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc  -gdwarf-2 "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc  -gdwarf-2 "../HAL/I2C_Slave_EEPROM.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"HAL/I2C_Slave_EEPROM.d" -MT"HAL/I2C_Slave_EEPROM.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL/I2C_Slave_EEPROM.o"
+arm-none-eabi-gcc  -gdwarf-2 "../HAL/keypad.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"HAL/keypad.d" -MT"HAL/keypad.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL/keypad.o"
+arm-none-eabi-gcc  -gdwarf-2 "../HAL/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"HAL/lcd.d" -MT"HAL/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL/lcd.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:42: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+ I2C_InitTypeDef Global_I2C_Config[2]  = {NULL,NULL} ;
+                                          ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:42: note: (near initialization for 'Global_I2C_Config[0].I2C_ClockSpeed')
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:47: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+ I2C_InitTypeDef Global_I2C_Config[2]  = {NULL,NULL} ;
+                                               ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:47: note: (near initialization for 'Global_I2C_Config[0].StretchMode')
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:20:41: warning: missing braces around initializer [-Wmissing-braces]
+ I2C_InitTypeDef Global_I2C_Config[2]  = {NULL,NULL} ;
+                                         ^
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c: In function 'I2C_GetFlagStatus':
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:400:20: warning: unused variable 'dummyRead' [-Wunused-variable]
+  volatile uint32_t dummyRead ;
+                    ^~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c: In function 'I2C1_EV_IRQHandler':
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:544:4: warning: implicit declaration of function 'Slave_States' [-Wimplicit-function-declaration]
+    Slave_States(I2Cx,I2C_EV_STOP);
+    ^~~~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:527:20: warning: variable 'dummy_read' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t dummy_read = 0 ;
+                    ^~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c: At top level:
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:612:6: warning: conflicting types for 'Slave_States'
+ void Slave_States (I2C_TypeDef* I2Cx  ,Slave_State state)
+      ^~~~~~~~~~~~
+../Stm32_F103C6_Drivers/stm32f103x8_I2C_Drver.c:544:4: note: previous implicit declaration of 'Slave_States' was here
+    Slave_States(I2Cx,I2C_EV_STOP);
+    ^~~~~~~~~~~~
+In file included from ../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c:8:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10:10: fatal error: ../Rte_DoorLock_indication_SWC_Type.h: No such file or directory
+ #include "../Rte_DoorLock_indication_SWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.c: In function 'MCAL_RCC_GetSYS_CLCKFreq':
+../Stm32_F103C6_Drivers/stm32f103x8_RCC_driver.c:87:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c: In function 'MCAL_SPI_GPIO_Set_Pins':
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:274:4: warning: case label value is less than minimum value for type
+    case SPI_NSS_Hard_Master_SS_output_disable:
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+    ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:376:4: warning: case label value is less than minimum value for type
+    case SPI_NSS_Hard_Master_SS_output_disable:
+    ^~~~
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:276:27: warning: statement will never be executed [-Wswitch-unreachable]
+     PinCfg.GPIO_PinNumber = GPIO_PIN_4;
+../Stm32_F103C6_Drivers/stm32f103x8_SPI_Drver.c:378:27: warning: statement will never be executed [-Wswitch-unreachable]
+     PinCfg.GPIO_PinNumber = GPIO_PIN_12;
+../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c:8:10: fatal error: DIO.h: No such file or directory
+ #include "DIO.h"
+          ^~~~~~~
+compilation terminated.
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:7:10: fatal error: RTE_gen/Rte_DoorLock_indication_SWC.h: No such file or directory
+ #include "RTE_gen/Rte_DoorLock_indication_SWC.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../Stm32_F103C6_Drivers/stm32f103x8_USART_driver.c: In function 'MCAL_UART_SendData':
+../Stm32_F103C6_Drivers/stm32f103x8_USART_driver.c:180:12: warning: unused variable 'pdata' [-Wunused-variable]
+  uint16_t *pdata;
+            ^~~~~
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:27: AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:29: AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:31: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+../Src/main.c: In function 'StartOS':
+../Src/main.c:83:4: warning: implicit declaration of function 'ReadDoorSensor_runnable' [-Wimplicit-function-declaration]
+    ReadDoorSensor_runnable();
+    ^~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:88:4: warning: implicit declaration of function 'DoorLock_indication_runnable' [-Wimplicit-function-declaration]
+    DoorLock_indication_runnable();
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:7:10: fatal error: ../Rte_DoorSensorAbstractionSWC.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:33: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:59:04 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:59:30 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/DIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/DIO.d" -MT"AUTOSAR_Implementation/DIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/DIO.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c:8:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10:10: fatal error: ../Rte_DoorLock_indication_SWC_Type.h: No such file or directory
+ #include "../Rte_DoorLock_indication_SWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:7:10: fatal error: RTE_gen/Rte_DoorLock_indication_SWC.h: No such file or directory
+ #include "RTE_gen/Rte_DoorLock_indication_SWC.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:31: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:27: AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o] Error 1
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:7:10: fatal error: ../Rte_DoorSensorAbstractionSWC.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:33: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c:9:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10:10: fatal error: ../Rte_DoorSensorAbstractionSWC_Type.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:29: AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:59:31 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:59:39 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c:8:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10:10: fatal error: ../Rte_DoorLock_indication_SWC_Type.h: No such file or directory
+ #include "../Rte_DoorLock_indication_SWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:27: AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:7:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10:10: fatal error: ../Rte_DoorLock_indication_SWC_Type.h: No such file or directory
+ #include "../Rte_DoorLock_indication_SWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:7:10: fatal error: ../Rte_DoorSensorAbstractionSWC.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:31: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:33: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c:9:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10:10: fatal error: ../Rte_DoorSensorAbstractionSWC_Type.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:29: AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:59:40 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:59:45 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11:10: fatal error: ../Rte_Type.h: No such file or directory
+ #include "../Rte_Type.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:27: AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:7:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11:10: fatal error: ../Rte_Type.h: No such file or directory
+ #include "../Rte_Type.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:7:10: fatal error: ../Rte_DoorSensorAbstractionSWC.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:31: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:33: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c:9:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10:10: fatal error: ../Rte_DoorSensorAbstractionSWC_Type.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:29: AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:59:45 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:59:51 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:7:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:27: AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:7:10: fatal error: ../Rte_DoorSensorAbstractionSWC.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:31: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:33: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c:9:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10:10: fatal error: ../Rte_DoorSensorAbstractionSWC_Type.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:29: AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:59:51 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+14:59:56 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:7:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:7:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10:10: fatal error: ../Rte_DoorSensorAbstractionSWC_Type.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:27: AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:31: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:33: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c:9:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10:10: fatal error: ../Rte_DoorSensorAbstractionSWC_Type.h: No such file or directory
+ #include "../Rte_DoorSensorAbstractionSWC_Type.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:29: AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:59:57 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+15:00:01 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:7:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:27: AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:7:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11:10: fatal error: ../Rte_Type.h: No such file or directory
+ #include "../Rte_Type.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:31: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:33: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c:9:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11:10: fatal error: ../Rte_Type.h: No such file or directory
+ #include "../Rte_Type.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:29: AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:00:01 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+15:00:05 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:7:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:27: AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:7:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:31: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:33: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c:9:
+../AUTOSAR_Implementation/RTE_gen/Rte.h:10:10: fatal error: Std_Types.h: No such file or directory
+ #include "Std_Types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:29: AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:00:06 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+15:00:10 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c:8:
+../AUTOSAR_Implementation/RTE_gen/../Std_Types.h:15:10: fatal error: Platform_Types.h: No such file or directory
+ #include "Platform_Types.h" // TODO: move
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:7:
+../AUTOSAR_Implementation/RTE_gen/../Std_Types.h:15:10: fatal error: Platform_Types.h: No such file or directory
+ #include "Platform_Types.h" // TODO: move
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:27: AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c:7:
+../AUTOSAR_Implementation/RTE_gen/../Std_Types.h:15:10: fatal error: Platform_Types.h: No such file or directory
+ #include "Platform_Types.h" // TODO: move
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:31: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:33: AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o] Error 1
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte.h:10:0,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_Type.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC_Type.h:11,
+                 from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:10,
+                 from ../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c:9:
+../AUTOSAR_Implementation/RTE_gen/../Std_Types.h:15:10: fatal error: Platform_Types.h: No such file or directory
+ #include "Platform_Types.h" // TODO: move
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:29: AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:00:10 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+15:00:28 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c: In function 'Rte_Call_DoorLock_indication_SWC_RP_CS_Led_Switch_Led_Switch':
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:36:2: warning: implicit declaration of function 'Led_Switch_runnable' [-Wimplicit-function-declaration]
+  Led_Switch_runnable(LedState);
+  ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Graduation Project\Course\KEROLES\STM32 Drivers\AUTOSAR_PROJECT\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+arm-none-eabi-objdump -h -S  DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+arm-none-eabi-objcopy  -O binary  DoorLock_AUTOSAR_Project.elf  "DoorLock_AUTOSAR_Project.bin"
+   text	   data	    bss	    dec	    hex	filename
+   3000	      8	   1728	   4736	   1280	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 
+Finished building: DoorLock_AUTOSAR_Project.bin
+ 
+15:00:29 **** Incremental Build of configuration Debug for project RemoteSystemsTempFiles ****
+make -j16 all 
+arm-none-eabi-size   RemoteSystemsTempFiles.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2552	      8	   1712	   4272	   10b0	RemoteSystemsTempFiles.elf
+Finished building: default.size.stdout
+ 
+15:01:21 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3000	      8	   1728	   4736	   1280	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+15:01:26 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3000	      8	   1728	   4736	   1280	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+15:01:28 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3000	      8	   1728	   4736	   1280	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+15:01:32 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c: In function 'Rte_Call_DoorLock_indication_SWC_RP_CS_Led_Switch_Led_Switch':
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:36:2: warning: implicit declaration of function 'Led_Switch_runnable' [-Wimplicit-function-declaration]
+  Led_Switch_runnable(LedState);
+  ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Graduation Project\Course\KEROLES\STM32 Drivers\AUTOSAR_PROJECT\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-objdump -h -S  DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+arm-none-eabi-objcopy  -O binary  DoorLock_AUTOSAR_Project.elf  "DoorLock_AUTOSAR_Project.bin"
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3000	      8	   1728	   4736	   1280	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.bin
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 
+15:02:36 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:8:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.h:19:56: error: conflicting types for 'Rte_Instance'
+ typedef const Rte_CDS_DoorSensorAbstractionSWC * const Rte_Instance;
+                                                        ^~~~~~~~~~~~
+In file included from ../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:7:0:
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.h:19:55: note: previous declaration of 'Rte_Instance' was here
+ typedef const Rte_CDS_DoorLock_indication_SWC * const Rte_Instance;
+                                                       ^~~~~~~~~~~~
+make: *** [AUTOSAR_Implementation/RTE_gen/subdir.mk:31: AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:02:45 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j16 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Graduation Project/Course/KEROLES/STM32 Drivers/AUTOSAR_PROJECT/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c: In function 'Rte_Call_DoorLock_indication_SWC_RP_CS_Led_Switch_Led_Switch':
+../AUTOSAR_Implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:36:2: warning: implicit declaration of function 'Led_Switch_runnable' [-Wimplicit-function-declaration]
+  Led_Switch_runnable(LedState);
+  ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Graduation Project\Course\KEROLES\STM32 Drivers\AUTOSAR_PROJECT\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-objdump -h -S  DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+arm-none-eabi-objcopy  -O binary  DoorLock_AUTOSAR_Project.elf  "DoorLock_AUTOSAR_Project.bin"
+arm-none-eabi-size   DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3000	      8	   1728	   4736	   1280	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.bin
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 

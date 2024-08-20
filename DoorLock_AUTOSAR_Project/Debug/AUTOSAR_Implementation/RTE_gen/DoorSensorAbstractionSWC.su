@@ -1,0 +1,2 @@
+DoorSensorAbstractionSWC.c:19:23:Led_Switch_runnable	16	static
+DoorSensorAbstractionSWC.c:44:13:ReadDoorSensor_runnable	16	static
